@@ -1,24 +1,18 @@
-# ADR template by Michael Nygard
-
-This is the template in [Documenting architecture decisions - Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
-You can use [adr-tools](https://github.com/npryce/adr-tools) for managing the ADR files.
-
-In each ADR file, write these sections:
-
 # Title
+Should we have a Kiosks-Fridge-customer-vendor-management component
 
 ## Status
 
-What is the status, such as proposed, accepted, rejected, deprecated, superseded, etc.?
+superseded
 
 ## Context
 
-What is the issue that we're seeing that is motivating this decision or change?
+Do we need a Kiosks-Fridge-customer-vendor-management to manage kiosks, fridge, customer and vendor?
 
 ## Decision
 
-What is the change that we're proposing and/or doing?
+We will have separate components to manage kiosks (along with point of sale systems), fridges, customers and vendors
 
 ## Consequences
 
-What becomes easier or more difficult to do because of this change?
+Rather than having one manager to take care of kiosks, fridges, customers and vendors, we have them as individual components.  We might have more components but they all have differents functionalities, this makes it easier to manage.
