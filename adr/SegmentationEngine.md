@@ -3,7 +3,7 @@ Should we have a Segmentation Engine?
 
 ## Status
 
-proposed
+superseded
 
 ## Context
 
@@ -19,7 +19,7 @@ What is the difference between Recommendation and Segmentation engines?
 
 ## Decision
 
-It was decided to revisit this again.
+It was decided to not have it.
 
 ## Consequences
 
